@@ -16,7 +16,7 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]) {
   goto start;
  usage:
   fprintf(stderr,
-          "Usage: webcam [-l] [-c CAMERA] [-g GEOMETRY] [-h]              \n"
+          "Usage: camera [-l] [-c CAMERA] [-g GEOMETRY] [-h]              \n"
           "                                                               \n"
           "OPTIONS:                                                       \n"
           "  -l           List available cameras and exit                 \n"
